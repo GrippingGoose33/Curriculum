@@ -1,0 +1,13 @@
+.Contacto .error {
+    border: 1px solid red;
+}
+
+.Contacto .errorMessage {
+    color: red;
+    font-size: 10px;
+}
+
+.Contacto form {
+    background-color:green;
+    
+}

@@ -75,7 +75,7 @@ class Contacto extends Component {
         return (
             
             <div className ="Person">
-                <form onSubmit={this.handleOnSubmite}>
+                <form onSubmit={this.handleOnSubmite} className="form">
                     <div>
                         <label>
                             <h1>Nombre</h1>

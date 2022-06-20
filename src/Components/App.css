@@ -43,6 +43,7 @@
   margin-right: 10px;
   align-self:flex-end;
   justify-content:flex-start;
+  list-style: none;
 }
 
 .App-header ul li a {

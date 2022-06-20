@@ -1,23 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Lista(props) {
-    const {name, origin, image} = props;
+    const {title, id, description} = props;
 
     return (
         <div className='col-3'>
             <div className='card mb-3'>
-                <img
-                    src={image}
-                    alt={name}
-                    className='card-img-top'
-                />
                 <div className='card-body'>
                     <h3 className='card-title'>
-                        {name}
+                        {title}
                     </h3>
-                    <p>{`Origin: ${origin && origin.name}`}</p>
+                    <p>{`Description: ${description}`}</p>
                 </div>
             </div>
+            <Link to={`/portafolio/${id}`}>{title}</Link>
         </div>
     )
 }

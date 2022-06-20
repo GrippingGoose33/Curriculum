@@ -7,7 +7,7 @@ import Panel from '../Shared/Layout/Panel.js';
 function App(props) {
   return (
     <div className="App">
-      <Panel title="Routing" url="https://github.com/" />
+      <Panel title="Emilio Ortiz M." url="https://github.com/" />
       <Content>
         {props.children}
       </Content>

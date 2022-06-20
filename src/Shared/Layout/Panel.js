@@ -13,7 +13,7 @@ const Panel = (props) => {
                 <a href={props.url}>
                 <img src="http://assets.stickpng.com/thumbs/58718a527b7f6103e35c6ce5.png" className="App-logo" alt="logo" />
                 </a>
-                <h1>{props.title}</h1>
+                <h1>{title}</h1>
             </div>
 
             <ul>
