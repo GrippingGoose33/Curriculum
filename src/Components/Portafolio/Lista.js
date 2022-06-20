@@ -13,8 +13,8 @@ function Lista(props) {
                     </h3>
                     <p>{`Description: ${description}`}</p>
                 </div>
+                <Link to={`/portafolio/${id}`}>{title}</Link>
             </div>
-            <Link to={`/portafolio/${id}`}>{title}</Link>
         </div>
     )
 }
